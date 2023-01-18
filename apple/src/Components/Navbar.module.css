@@ -1,0 +1,20 @@
+.navbar{
+  background-color:#1d1d1f;
+  width: 100vw;
+  height: 44px;
+  color: #d4d4d6;
+  line-height: 25px;
+  font-size: 17px;
+  text-align: left;
+  letter-spacing: normal;
+  margin: auto;
+}
+.navbarlink{
+    padding-top: 10px;
+    width: 996px;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+}
+
