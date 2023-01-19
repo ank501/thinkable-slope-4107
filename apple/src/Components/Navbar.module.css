@@ -1,4 +1,6 @@
 .navbar{
+  position: fixed;
+  z-index: 999;
   background-color:#1d1d1f;
   width: 100vw;
   height: 44px;
@@ -17,4 +19,39 @@
     font-size: 12px;
     letter-spacing: -0.12px;
 }
+
+.footer{
+  width: 100vw;
+  text-align: left;
+  background-color:#f5f5f7;
+  padding-top: 20px;
+ 
+}
+.footer_up{
+  margin: auto;
+  width: 980px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 30.0004px;
+ letter-spacing: normal;
+ color: #6e6e73;
+ 
+}
+.footer_mid{
+
+  margin: auto;
+  margin-top: 30px;
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+ 
+
+}
+.footer_below{
+  margin: auto;
+  width: 980px;
+}
+
 
