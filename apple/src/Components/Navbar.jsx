@@ -12,8 +12,8 @@ const Navbar = () =>{
         <RouterLink to="/"> <img width={"20px"}  src="https://www.transparentpng.com/thumb/apple-logo/ZA6SCV-apple-logo-photos.png" /></RouterLink>
         <RouterLink to="/product">Store</RouterLink>
         <RouterLink to={"/login"}> Mac</RouterLink>
-        <RouterLink to={"/product"}> iPad</RouterLink>
-        <RouterLink to={"/product"}> iPhone</RouterLink>
+        <RouterLink to={"/iPad"}> iPad</RouterLink>
+        <RouterLink to={"/iPhone"}> iPhone</RouterLink>
         <RouterLink to={"/product"}> Watch</RouterLink>
         <RouterLink to={"/product"}> AirPods</RouterLink>
         <RouterLink to={"/product"}> TV & Home</RouterLink>
@@ -21,7 +21,7 @@ const Navbar = () =>{
         <RouterLink to={"/product"}>Accessories</RouterLink>
         <RouterLink to={"/product"}>Support</RouterLink>
         <RouterLink to="/product"> <SearchIcon /></RouterLink> 
-        <RouterLink to="/product"> <BsBag /></RouterLink>   
+        <RouterLink to="/payment"> <BsBag /></RouterLink>   
     </HStack>
     
     
