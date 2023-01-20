@@ -15,6 +15,7 @@ const SmallCard = ({image,title,subtitle,avail,learn,bgCol,textColor}) => {
   <CardBody>
   
     <Image
+    
       src= {image}
       alt='Green double couch with wooden legs'
       borderRadius='lg'

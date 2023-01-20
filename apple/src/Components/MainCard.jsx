@@ -15,7 +15,7 @@ const MainCard = ({image , title ,subtitle,marginTop}) => {
      <Heading size={"3xl"}>{title}</Heading>
      <Heading size={"sm"} marginTop={"10px"} marginBottom={"20px"}>{subtitle}</Heading>
      <Image
-    objectFit='cover'
+ 
     src={image}
     alt='Chakra UI'
   />
