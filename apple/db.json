@@ -1,0 +1,31 @@
+{
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+   "NewYearAccessories" : [{"image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MQDT3?wid=532&hei=582&fmt=png-alpha&.v=1664481896795" ,
+   "title" : "Smart Folio for iPad (10th generation) - Watermelon" ,"price" :"79.00"} , {"image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HQDZ2?wid=532&hei=582&fmt=png-alpha&.v=1672297329482" ,"title" : "OtterBox Lumen Series Case with MagSafe for iPhone 14 - Red CNY Limited Edition" ,"price":"49.95" 
+   },{"image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPL83?wid=532&hei=582&fmt=png-alpha&.v=1660798745418","title" :"RED Sport" ,"price" :"49.00"},
+   {
+       "image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MLWJ3?wid=532&hei=582&fmt=png-alpha&.v=1630029877000" ,"title":"Apple Cable" ,"price" :"29.00"
+   },
+   {
+       "title" : "" , 
+       "image" : "" ,
+       "price" : ""
+   },
+   {
+       "title" : "" , 
+       "image" : "" ,
+       "price" : ""
+   },
+   {
+       "title" : "" , 
+       "image" : "" ,
+       "price" : ""
+   }
+   
+   ]
+  }

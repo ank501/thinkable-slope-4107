@@ -1,11 +1,18 @@
+import { Divider, Table } from '@chakra-ui/react'
 import React from 'react'
+import AddProduct from '../Components/AddProduct'
 import Footer from '../Components/Footer'
-
+import TableComponent from '../Components/TableComponent'
 const AdminPage = () => {
   return (
-    <div>AdminPage
-      <Footer />
-    </div>
+  <>
+   
+    <AddProduct />
+    <Divider />
+    <TableComponent />
+         <Footer/>
+      
+      </>
   )
 }
 
