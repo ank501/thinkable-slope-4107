@@ -11,7 +11,7 @@ const Navbar = () =>{
     <HStack className={NavbarCSS.navbarlink}>
         <RouterLink to="/"> <img width={"20px"}  src="https://www.transparentpng.com/thumb/apple-logo/ZA6SCV-apple-logo-photos.png" /></RouterLink>
         <RouterLink to="/store">Store</RouterLink>
-        <RouterLink to={"/login"}> Mac</RouterLink>
+        <RouterLink to={"/store"}> Mac</RouterLink>
         <RouterLink to={"/iPad"}> iPad</RouterLink>
         <RouterLink to={"/iPhone"}> iPhone</RouterLink>
         <RouterLink to={"/iPhone"}> Watch</RouterLink>
@@ -21,7 +21,7 @@ const Navbar = () =>{
         <RouterLink to={"/accessories"}>Accessories</RouterLink>
         <RouterLink to={"/admin"}>Admin</RouterLink>
         <RouterLink to="/product"> <SearchIcon /></RouterLink> 
-        <RouterLink to="/store"> <BsBag /></RouterLink>   
+        <RouterLink to="/cart"> <BsBag /></RouterLink>   
     </HStack>
     
     

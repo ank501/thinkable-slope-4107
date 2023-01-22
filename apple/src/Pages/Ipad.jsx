@@ -64,21 +64,7 @@ Endless possibilities.</Heading>
 
         </Box>
         <Box>
-            <Heading>Which iPad is right for you?</Heading>
-            <Grid>
-                <GridItem>
-                   <ProductCard image={"https://www.apple.com/v/ipad-pro/al/images/overview/display-xdr/xdr_hero_static__kxba3smxjn2a_large_2x.jpg"} desc={"The ultimate iPad experience with the most advanced technology."} price={"$2000"}/>
-                </GridItem>
-                <GridItem>
-
-                </GridItem>
-                <GridItem>
-                    
-                </GridItem>
-                <GridItem>
-
-                </GridItem>
-            </Grid>
+          
         </Box>
 <Footer />
         </>)
