@@ -1,31 +1,42 @@
-import React from 'react'
-import { useRef } from 'react'
-import {
-  FormControl,
-  FormLabel,
-  FormErrorMessage,
-  FormHelperText,
-  Input,
-  Box,Container ,video
-} from '@chakra-ui/react'
-import Navbar from '../Components/Navbar'
-import Footer from '../Components/Footer'
-//https://www.apple.com/105/media/us/homepod-2nd-generation/2022/f6c72fbe-43a7-45cd-b7b5-ce192011cca9/anim/spatial-audio/large_2x.mp4
+import { useState } from "react"
+import { useContext } from "react"
+import { AuthContext } from "../Context/AuthContext"
+
+
 const LoginPage = () => {
-  const ref = useRef(0);
+  const {login,isAuth} = useContext(AuthContext)
+  const [email ,setEmail] = useState("")
+ const [password ,setPassword] = useState("")
+  
+ const HandleLogin = () => {
+  const userDetail ={ email , password}
+
+  fetch("https://reqres.in/api/login" , {
+    method :"POST",
+    body: JSON.stringify(userDetail),
+    headers :{
+      "Content-Type" :"aplication/json"
+    }
+  }).then((res)=>res.json())
+  .then((json) => {
+    console.log(json)
+  })
+ };
   return (
     <>
-  
-    <video  ref={ref} autoPlay loop muted>
-    <source src="https://www.apple.com/105/media/us/homepod-2nd-generation/2022/f6c72fbe-43a7-45cd-b7b5-ce192011cca9/anim/spatial-audio/large_2x.mp4"
-            type="video/webm"/>
-    <source src="https://www.apple.com/105/media/us/homepod-2nd-generation/2022/f6c72fbe-43a7-45cd-b7b5-ce192011cca9/anim/spatial-audio/large_2x.mp4"
-            type="video/mp4"/>
-    </video>
-     
-   
-
-    <Footer/>
+    <div>
+      <input type="text"
+             placeholder="Enter email"
+             value={email}
+             onChange = {(e) => setEmail(e.target.value) }
+      />
+      <input type="password"
+             placeholder="Enter Password"
+             value={email}
+             onChange = {(e) => setPassword(e.target.value) }
+      />
+      <button onClick={HandleLogin} >Login</button>
+    </div>
     </>
    
   )

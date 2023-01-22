@@ -49,9 +49,9 @@ export const HomePage = () => {
 
 <Grid templateColumns='repeat(2, 1fr)' gap={3} marginTop={"20px"}>
 <GridItem><SmallCard bgCol={"black"} image={"https://www.apple.com/v/apple-watch-series-8/b/images/overview/hero/hero_static__c9d1bk9frtua_large_2x.jpg"}  title={"Apple Watch"} subtitle={"A healthy leap ahead."} textColor={"white"}/></GridItem>
-<GridItem><SmallCard bgCol={"black"} image={"https://www.apple.com/v/home/ax/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg"} subtitle={"Pro.beyond"} textColor={"white"}/></GridItem>
+{/* <GridItem><SmallCard bgCol={"black"} image={"https://www.apple.com/v/home/ax/images/promos/iphone-14-pro/promo_iphone14pro__4n4twj56fzmu_large_2x.jpg"} subtitle={"Pro.beyond"} textColor={"white"}/></GridItem> */}
 <GridItem><SmallCard bgCol={"smokewhite"} image={"https://www.apple.com/v/iphone-14/d/images/overview/display/xdr_display__cxbhgrgt5keq_large_2x.jpg"} title={"iPhone 14"} textColor={"black"}  subtitle={"Pro beyond ,A healthy leap ahead"} /></GridItem>
-<GridItem><SmallCard bgCol={"black"} image={"https://www.apple.com/in/ipad-pro/images/overview/hero/hero_combo__fcqcc3hbzjyy_large_2x.jpg"} title={"iPhone 12"} textColor={"white"} subtitle={"Pro beyond"}/></GridItem>
+{/* <GridItem><SmallCard bgCol={"black"} image={"https://www.apple.com/in/ipad-pro/images/overview/hero/hero_combo__fcqcc3hbzjyy_large_2x.jpg"} title={"iPhone 12"} textColor={"white"} subtitle={"Pro beyond"}/></GridItem> */}
 </Grid>
 
 

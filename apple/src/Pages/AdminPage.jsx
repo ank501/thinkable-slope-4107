@@ -1,9 +1,14 @@
 import { Divider, Table } from '@chakra-ui/react'
 import React from 'react'
+import { Navigate } from 'react-router-dom'
+import { useState } from 'react'
 import AddProduct from '../Components/AddProduct'
 import Footer from '../Components/Footer'
 import TableComponent from '../Components/TableComponent'
+
+
 const AdminPage = () => {
+
   return (
   <>
    

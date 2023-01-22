@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Navigate } from 'react-router-dom';
 import {
     Box,
     chakra,
@@ -17,9 +17,12 @@ import {
     VisuallyHidden,
     List,
     ListItem,
+    Alert,
   } from '@chakra-ui/react';
 
-  export default function ProductDetail({image,title,price,subtitle}) {
+
+
+  export default function ProductDetail({image,title,price,subtitle ,handleClick}) {
     return (
       <Container maxW={'7xl'}>
         <SimpleGrid
@@ -72,7 +75,8 @@ import {
               
             </Stack>
   
-            <Button
+            <Button 
+           
               rounded={'none'}
               w={'full'}
               mt={8}
@@ -84,7 +88,7 @@ import {
               _hover={{
                 transform: 'translateY(2px)',
                 boxShadow: 'lg',
-              }}>
+              }}   onClick={handleClick}>
               Add to cart
             </Button>
   

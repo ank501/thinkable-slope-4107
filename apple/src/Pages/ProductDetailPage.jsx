@@ -9,31 +9,36 @@ import { useParams } from 'react-router-dom'
 import Acards from '../Components/Acards';
 import ProductDetail from '../Components/ProductDetail'
 import { Spinner } from '@chakra-ui/react'
+import { Alert } from '@chakra-ui/react'
 
 
+const datat = [{
+  "id" : "1" ,
+  "title" : "Buy AirPods Max" , 
+  "image" : "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpods-max-select-pink-202011?wid=532&hei=582&fmt=png-alpha&.v=1604022365000" ,
+  "price" : "549",
+  "desc"  : "Requires AirPods Max with the latest version of software, and iPhone and iPod touch models with the latest version of iOS; iPad models with the latest version of iPadOS; Apple Watch models with the latest version of watchOS; Mac models with the latest version of macOS; or Apple TV models with the latest version of tvOS."
+}]
 
-
+const Click =() =>{
+  return <Alert>Product Adde to cart Successfully</Alert>
+}
 
 
 const ProductDetailPage = () => {
-  const [data,setData] = useState([])
-  const {id} =useParams()
-
-  const getData = ()=>{
-  axios
-    .get(`https://63ca4b26f36cbbdfc7557063.mockapi.io/apple/apple${id}`)
-    .then((res)=>{
-      setData(res.data)
-      console.log(res.data)
-    })
-  }
   
-  useEffect(()=>{
-    getData()
-  },[])
   return (
     <>
-    
+
+      return(
+        <>
+        {datat.map((item)=>{
+          return  <ProductDetail key={item.id} image={item.image} title={item.title} price={item.price} subtitle={item.desc} handleClick={Click}/>
+        })}
+       
+        </>
+      )
+ 
       
       
     

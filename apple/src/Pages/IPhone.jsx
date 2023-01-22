@@ -32,7 +32,7 @@ open the blinds {<br/>}at 7 AM9</Heading>
     </VStack>
     <VedioPlayer vedio={"https://www.apple.com/105/media/us/homepod-2nd-generation/2023/f6c72fbe-43a7-45cd-b7b5-ce192011cca9/anim/spatial-awareness/large_2x.mp4"}/>
     <MainCard image={"https://www.apple.com/v/homepod-2nd-generation/a/images/overview/home_theater__bfqpfanbyss2_large_2x.jpg"}/>
-    <Footer />
+
     </Box>
     </>
   )

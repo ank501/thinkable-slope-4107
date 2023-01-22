@@ -23,7 +23,7 @@ const AllRoute =()=>{
           <Route path="/accessories" element={ <Accessories />}/>
          <Route path="/iPhone" element={<IPhone/>}/>
           <Route path="/store" element={ <Store />}/>
-          <Route path="/store/:id" element={ <ProductDetailPage />}/>
+          <Route path="/product/:2" element={ <ProductDetailPage />}/>
           <Route path="/admin" element={ <AdminPage />}/>
           <Route path="/iPad" element={ <Ipad />}/>
         </Routes>
