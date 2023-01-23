@@ -11,7 +11,3 @@ Tech Stacks used are:
 3.HTML
 
 For styling purpose External library Chakra Ui is used.
-
-
-
-
